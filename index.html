@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mail.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="conteiner">
+            <div class="img-close">
+                <img src="images/close.png" alt="close" class="close" />
+            </div>
+            <div class="div-h1">
+                <h1>Member Sign In</h1>
+            </div>
+            <div class="div-p1">
+                <p class="p1">Not a member yet?<a href="" class="a1">Sign up now</a></p>
+            </div>
+            <form name="main-form">
+                <div class="login">
+                    <div>
+                        <img src="images/people.png" alt="people" class="people-img" />
+                        <input type="text" class="name" placeholder="Username / EmailPassword">
+                    </div>
+                </div>
+                <div>
+                    <div class="password">
+                        <img src="images/password.png" alt="people" class="password-img" />
+                        <input type="password" class="password1" id="password-input" placeholder="Password" name="password">
+                        <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+                    </div>
+                </div>
+                <div class="sing-in">
+                    <div>
+                        <button class="button-sing-in">Sign In</button>
+                    </div>
+                    <div class="checkbox-div">
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                        <label for="checkbox">Remember me</label>
+                    </div>
+                    <a href="" alt="Forgot Password?" class="a2">Forgot Password?</a>
+                </div> 
+            </form>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="mail.js"></script>
+</html>
